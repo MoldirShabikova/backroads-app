@@ -1,3 +1,8 @@
+import tour1 from './images/tour-1.jpeg'
+import tour2 from './images/tour-2.jpeg'
+import tour3 from './images/tour-3.jpeg'
+import tour4 from './images/tour-4.jpeg'
+
 export const pageLinks = [
     {
        id:1, href: '#home', text:'home' 
@@ -30,4 +35,68 @@ export const socialLinks = [
     href: "https://www.twitter.com",
     icon: "fab fa-squarespace",
   },
+];
+
+export const services = [
+  {
+    id: 1,
+    icon: "fas fa-wallet fa-fw",
+    title: "saving money",
+    text: " Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia",
+  },
+  {
+    id: 1,
+    icon: "fas fa-tree fa-fw",
+    title: "endless hiking",
+    text: " Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia",
+  },
+  {
+    id: 1,
+    icon: "fas fa-socks fa-fw",
+    title: "amazing comfort",
+    text: " Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia",
+  },
+];
+
+export const tours = [
+    {
+        id: 1,
+        image: tour1,
+        date: "august 26th, 2020",
+        title: 'Tibet Adventure',
+        text: "loren Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia",
+        location: "China",
+        duration: 6,
+        loc: 2100
+    },
+    {
+        id: 2,
+        image: tour2,
+        date: "august 26th, 2020",
+        title: 'Tibet Adventure',
+        text: "loren Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia",
+        location: "China",
+        duration: 6,
+        loc: 2100
+    },
+    {
+        id: 3,
+        image: tour3,
+        date: "august 26th, 2020",
+        title: 'Tibet Adventure',
+        text: "loren Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia",
+        location: "China",
+        duration: 6,
+        loc: 2100
+    },
+    {
+        id: 4,
+        image: tour4,
+        date: "august 26th, 2020",
+        title: 'Tibet Adventure',
+        text: "loren Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia",
+        location: "China",
+        duration: 6,
+        loc: 2100
+    }
 ];
